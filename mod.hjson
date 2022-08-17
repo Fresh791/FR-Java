@@ -17,7 +17,7 @@ description: "The java version of Fading Rev. HUUUGE WIP, Might cancel."
 version: 1.0
 
 #the minimum game build required to run this mod
-minGameVersion: 126.2
+minGameVersion: 136
 
 #this is a java mod
 java: true
