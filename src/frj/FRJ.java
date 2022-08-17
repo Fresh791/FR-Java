@@ -14,8 +14,8 @@ public class FRJ extends Mod{
 
     @Override
     public void loadContent(){
-        new FRJBlocks().load();
-        new FRJTechTree().load();
+        FRJBlocks.load();
+        FRJTechTree.load();
     }
 
 }
