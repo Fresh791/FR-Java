@@ -1,47 +1,24 @@
 package frj.content;
 
-import arc.graphics.*;
-import arc.math.*;
-import arc.struct.*;
-import mindustry.*;
-import mindustry.entities.*;
-import mindustry.entities.abilities.*;
-import mindustry.entities.bullet.*;
-import mindustry.entities.effect.*;
-import mindustry.gen.*;
-import mindustry.graphics.*;
-import mindustry.type.*;
-import mindustry.world.*;
-import mindustry.world.blocks.*;
-import mindustry.world.blocks.campaign.*;
-import mindustry.world.blocks.defense.*;
-import mindustry.world.blocks.defense.turrets.*;
-import mindustry.world.blocks.distribution.*;
-import mindustry.world.blocks.environment.*;
-import mindustry.world.blocks.legacy.*;
-import mindustry.world.blocks.liquid.*;
-import mindustry.world.blocks.logic.*;
-import mindustry.world.blocks.payloads.*;
-import mindustry.world.blocks.power.*;
-import mindustry.world.blocks.production.*;
-import mindustry.world.blocks.sandbox.*;
-import mindustry.world.blocks.storage.*;
-import mindustry.world.blocks.units.*;
-import mindustry.world.consumers.*;
-import mindustry.world.draw.*;
-import mindustry.world.meta.*;
 
+import arc.Core;
+import creativecores.graphics.CCPal;
+import mindustry.content.Fx;
+import mindustry.content.Items;
+import mindustry.content.Liquids;
+import mindustry.content.StatusEffects;
+import mindustry.entities.bullet.MissileBulletType;
 import mindustry.entities.bullet.BasicBulletType;
 import mindustry.entities.pattern.ShootAlternate;
-
+import mindustry.gen.Sounds;
+import mindustry.type.Category;
+import mindustry.type.ItemStack;
+import mindustry.world.Block;
 import mindustry.world.blocks.defense.turrets.ItemTurret;
+import mindustry.world.blocks.defense.turrets.TractorBeamTurret;
+import mindustry.world.meta.Env;
 
-import mindustry.content.Items;
-
-import static mindustry.Vars.*;
-import static mindustry.type.ItemStack.*;
-
-import static mindustry.type.ItemStack.with;
+import static mindustry.type.ItemStack.with
 
 public class FRJBlocks {
   public static Block trio;
