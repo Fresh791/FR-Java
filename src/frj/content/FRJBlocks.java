@@ -22,6 +22,7 @@ public class FRJBlocks {
   public static Block trio;
   
   public static void load() {
+         
          trio = new ItemTurret("trio"){{
            requirements(Category.turret, with(Items.copper, 70, Items.lead, 35));
            ammo(
@@ -41,6 +42,7 @@ public class FRJBlocks {
         shoot = new ShootAlternate(3f);
            
         limitRange();
-        }};
-    }
+        
+      }};
+   }
 }
