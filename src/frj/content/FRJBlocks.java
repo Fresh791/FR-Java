@@ -37,12 +37,10 @@ public class FRJBlocks {
         size = 2;
         reload = 12f;
         range = 120f;
-        shoot = new ShootAlternate(){
-          {
-            shots = 3;
-            barrels = 3;
-            spread = 2f;
-            shotDelay = 4f;
-            }};
+        health = 300;
+        shoot = new ShootAlternate(3f);
+           
+        limitRange();
+        }};
     }
 }
