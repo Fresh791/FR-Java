@@ -2,7 +2,6 @@ package frj.content;
 
 
 import arc.Core;
-import creativecores.graphics.CCPal;
 import mindustry.content.Fx;
 import mindustry.content.Items;
 import mindustry.content.Liquids;
