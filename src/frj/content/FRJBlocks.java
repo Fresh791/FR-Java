@@ -19,11 +19,7 @@ import mindustry.world.meta.Env;
 import static mindustry.type.ItemStack.with;
 
 public class FRJBlocks {
-  public static Block
-         //turret
-         trio
-  ;
-  
+  public static Block trio;
   public void load() {
          trio = new ItemTurret("trio"){{
            requirements(Category.turret, with(Items.copper, 70, Items.lead, 35));
