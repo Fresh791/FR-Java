@@ -17,7 +17,7 @@ import mindustry.world.blocks.defense.turrets.ItemTurret;
 import mindustry.world.blocks.defense.turrets.TractorBeamTurret;
 import mindustry.world.meta.Env;
 
-import static mindustry.type.ItemStack.with
+import static mindustry.type.ItemStack.with;
 
 public class FRJBlocks {
   public static Block trio;
