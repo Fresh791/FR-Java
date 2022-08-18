@@ -39,6 +39,8 @@ import mindustry.world.meta.*;
 import static mindustry.Vars.*;
 import static mindustry.type.ItemStack.*;
 
+import static mindustry.type.ItemStack.with;
+
 public class FRJBlocks {
   public static Block trio;
   
