@@ -31,6 +31,9 @@ import mindustry.world.consumers.*;
 import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 
+import mindustry.entities.bullet.BasicBulletType;
+import mindustry.entities.pattern.ShootAlternate;
+
 import mindustry.world.blocks.defense.turrets.ItemTurret;
 
 import mindustry.content.Items;
