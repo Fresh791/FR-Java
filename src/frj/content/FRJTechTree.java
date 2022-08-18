@@ -11,7 +11,7 @@ import static mindustry.content.Blocks.*;
 import static mindustry.content.TechTree.*;
 import static frj.content.FRJBlocks.*;
 
-public class CCTechTree {
+public class FRJTechTree {
     static TechTree.TechNode context = null;
 
     public void load(){
