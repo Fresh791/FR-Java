@@ -2,20 +2,27 @@ package frj;
 
 import arc.*;
 import arc.util.*;
-import frj.content.FRJBlocks;
-import frj.content.FRJTechTree;
-import mindustry.game.EventType.*;
+import arc.struct.*;
+import mindustry.*;
 import mindustry.mod.*;
-import mindustry.ui.dialogs.*;
+import mindustry.type.*;
+import mindustry.content.*;
+import mindustry.type.Weather.*;
+import mindustry.game.EventType.*;
+import flow.content.*;
+import java.lang.*;
 
 public class FRJ extends Mod{
 
     public FRJ(){}
-
+    
     @Override
     public void loadContent(){
-        FRJBlocks.load();
-        FRJTechTree.load();
-    }
+        Runnable[] load = {
+            FRJBlocks::load,
+            FRJTechTree::load,
+        };
+        
+        for (Runnable r : load) r.run();
 
 }
