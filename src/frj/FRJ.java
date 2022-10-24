@@ -24,5 +24,5 @@ public class FRJ extends Mod{
         };
         
         for (Runnable r : load) r.run();
-
+    }
 }
